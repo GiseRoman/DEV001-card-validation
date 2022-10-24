@@ -1,0 +1,40 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    font-family: 'sans-serif';
+    color: rgb(43, 42, 42);
+    background-image: linear-gradient(45deg, rgba(233, 252, 255, 0.562), rgba(235, 193, 252, 0.486)), url(./img/fondo.jpg);
+    margin: 0px;
+    background-repeat: no-repeat;
+}
+.oculto{
+    display: block;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.caja{
+    width: 400px;
+    height: 400px;
+    padding: 10px 10px;
+    min-height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(226, 226, 226, 0.822);
+    border-radius: 5%;
+    border: 2px;
+    border-color: rgba(211, 165, 255, 0.541);
+    border-style: groove;
+    text-align: center;
+    justify-content: center;
+}
