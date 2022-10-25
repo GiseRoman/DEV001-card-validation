@@ -2,7 +2,7 @@
 
 ## Índice
 
-* [1. Informacion general](#1-Informacion general)
+* [1. Información general](#1-Información general)
 * [2. Temática](#2-Temática)
 * [3. Prototipo de baja fidelidad](#3-Prototipo de baja fidelidad)
 * [4. Prototipo de alta fidelidad](#4-Prototipo de alta fidelidad)
@@ -36,7 +36,7 @@ la suma de sus dígitos finales es un múltiplo de 10.
 
 ![gráfica de algoritmo de Luhn](https://www.101computing.net/wp/wp-content/uploads/Luhn-Algorithm.png)
 
-## 3. Prototipo de baja fidelidad
+## 3.Prototipo de baja fidelidad
 
 En este proyecto tendrás que construir una aplicación web que le permita a un
 usuario validar el número de una tarjeta de crédito. Además, tendrás que
@@ -52,7 +52,7 @@ Trabajando en parejas aprenderán a construir una aplicación web que interactua
 con la usuaria final a través del navegador, utilizando HTML, CSS y JavaScript
 como tecnologías.
 
-## 4. Prototipo de alta fidelidad
+## 4.Prototipo de alta fidelidad
 
 * Este proyecto lo resolvemos de manera individual. Te recomendamos una duracion de 1-3 sprints.
 * Enfócate en aprender y no solamente en "completar" el proyecto. Te va a costar.
@@ -61,7 +61,7 @@ No te preocupes demasiado ahora por lo que _todavía_ no entiendas. Irás aprend
 
 ***
 
-## 5. Para considerar Project Feedback
+## 5.Para considerar Project Feedback
 
 En resumen, los criterios de aceptación mínimos del proyecto para considerar Project Feedback:
 
