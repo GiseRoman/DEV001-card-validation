@@ -7,30 +7,29 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header>
-      <div id="encabezado" class="contenedor">
+    <nav class="navBar">
         <h1>Seijaku</h1>
-      </div>
-    </header>
+    </nav>
     <main>
-      <section id="bienvenida">
-        <h2 class="saludo">"Calma en medio del caos"</h2>
-        <article>
-          <p>Bienvenido a Seijaku <br> Somos un programa de apoyo psicológico gratuito <br> para personas que sufren de <br>
-            depresión, ansiedad, estrés severo<br> o que han pasado por situaciones traumaticas <br>
-            que podrían desembocar en un evento mayor que atente <br> contra su salud e integridad
+      <section id="bienvenida" class="ocultIndex">
+        <h2 class="titulos">"Calma en medio del caos"</h2>
+        <article class="saludo">
+          <p>Bienvenido a Seijaku. Somos un programa de apoyo psicológico gratuito para personas que sufren de <br>
+            depresión, ansiedad, estrés agudo o que han pasado por situaciones traumaticas
+            que podrían desembocar en un evento mayor que atente contra su salud e integridad
           </p>
         </article>
-        <h3>Funcionamos a base de donaciones</h3>
+        <h3 class="titulos">Funcionamos a base de donaciones</h3>
         <article>
-          <p>Nuestro programa funciona gracias a las donaciones de las personas maravillosas como tú, ¿te gustaría apoyarnos con una donación?</p>
-          <button id="donar" class="btn">Donar</button>
+          <p>Nuestro programa funciona gracias a las donaciones de las personas maravillosas como tú, <br> ¿te gustaría apoyarnos con una donación?</p>
         </article>
       </section>
         <section>
-          <form id="cardData" class="oculto caja">
+          <form id="cardData" class="caja">
               <input class="inp" type="text" name="name" placeholder="Nombre" required>
               <input class="inp" type="text" name="numbers" data-form-input placeholder="Numero de tarjeta" min="0" max="9" maxlength="16" required>
               <input class="miniInp" type="text" name="name" placeholder="mm/yy" maxlength="5" required>

@@ -16,13 +16,7 @@ const valid = (evento) => {
     }else{
         mostrar("cardInvalid");
     }
-    // const resultVal = document.querySelector("[data-result]");
-    // const resultP = document.createElement("li");
-    // resultP.classList.add("avisResult");
     val.value = validator.maskify(cc);
-    // const result = `<div><p>${validNumb}</p></div>`;
-    // resultP.innerHTML = result;
-    // resultVal.appendChild(resultP);
 };
 
 btnCard.addEventListener("click", valid);
