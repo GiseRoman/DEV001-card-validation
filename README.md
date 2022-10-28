@@ -9,7 +9,7 @@
       -Esta página es la página de donaciones de Senjaku.
         
 ## 3.Prototipo de baja fidelidad
-
+  ![Prototipo](IMG_20221028_074723.jpg)
 
 
 ## 4.Prototipo de alta fidelidad
