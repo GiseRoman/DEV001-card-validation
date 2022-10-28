@@ -4,8 +4,10 @@
    -Utilizar el Algoritmo de Luhn para realizar un validador de tarjeta de crédito 
    -Generar una función que oculte los digitos de la tarjeta (excepto los ultimos 4)
 ## 2. Temática
-      -Senjaku que una asociación que otorga apoyo psicológico a personas con problemas de ansiedad, depresión  y estrés.
-      -Trabajamos de la mano de profesionales y para ello dependemos de las donaciones que nos otorgan distintos usuarios e instituciones.
+      -Senjaku que una asociación que otorga apoyo psicológico a personas con problemas de ansiedad, 
+       depresión  y estrés.
+      -Trabajamos de la mano de profesionales y para ello dependemos de las donaciones que nos
+       otorgan distintos usuarios e instituciones.
       -Esta página es la página de donaciones de Senjaku.
         
 ## 3.Prototipo de baja fidelidad
