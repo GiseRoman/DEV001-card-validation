@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Card validation</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navBar">
+        <h1>Seijaku</h1>
+    </nav>
+    <main>
+      <section id="bienvenida" class="ocultIndex">
+        <h2 class="titulos">"Calma en medio del caos"</h2>
+        <article class="saludo">
+          <p>Bienvenido a Seijaku. Somos un programa de apoyo psicológico gratuito para personas que sufren de <br>
+            depresión, ansiedad, estrés agudo o que han pasado por situaciones traumaticas
+            que podrían desembocar en un evento mayor que atente contra su salud e integridad
+          </p>
+        </article>
+        <h3 class="saludo">Funcionamos a base de donaciones</h3>
+        <article>
+          <p class="saludo">Nuestro programa funciona gracias a las donaciones de las personas maravillosas como tú, <br> ¿te gustaría apoyarnos con una donación?</p>
+        </article>
+      </section>
+        <section>
+          <form id="cardData" class="caja">
+              <input class="inp" type="text" name="name" placeholder="Nombre">
+              <input class="inp" type="text" name="numbers" data-form-input placeholder="Numero de tarjeta" min="0" max="9" maxlength="16" required>
+              <input class="miniInp" type="text" name="name" placeholder="mm/yy" maxlength="5">
+              <input class="miniInp" type="text" name="name" placeholder="cvv" maxlength="4">
+              <button type="submit" class="btn" data-form-btn>Comprobar</button>
+          </form>
+        </section>
+        <section id="cardValid" class="oculto caja">
+          <article>
+            <p>!!Muchas gracias por tu donación!!</p>
+          </article>
+        </section>
+        <section id="cardInvalid" class="oculto caja">
+              <article>
+                <p>Oh no! <br> la tarjeta que ingresaste <br> el inválida </p>
+              </article>
+              <button type="submit" class="btn">Intentar nuevamente</button>
+        </section>
+        <!-- <div class="tarjeta oculto">
+          <ul data-result>
+          </ul>
+          <button class="btn">Intentar con otra tarjeta</button>
+        </div> -->
+    </main>
+    <footer></footer>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
