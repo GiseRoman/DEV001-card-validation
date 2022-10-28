@@ -1,8 +1,7 @@
 import validator from './validator.js';
 
-document.getElementById("donar").focus();
-
 const btnCard = document.querySelector('[data-form-btn]');
+
 // verificar la validez de número de tarjeta
 const valid = (evento) => {
     evento.preventDefault();
@@ -10,7 +9,7 @@ const valid = (evento) => {
     const n = val.value;
     let cc = n;
     const numb = validator.isValid(n);
-    const validNumb = validator.validation(numb);
+    const validNumb = validation(numb);
     if (validNumb === true) {
         mostrar("cardValid");
     }else{
@@ -21,7 +20,9 @@ const valid = (evento) => {
 
 btnCard.addEventListener("click", valid);
 
+// ubicarse en el input
 const inputCard = document.querySelector('[data-form-input]');
+
 // convertir en # los valores conforme se escriben en el input
 const ocultNumb = () =>{
     const num = document.querySelector('[data-form-input]');
@@ -37,4 +38,13 @@ function mostrar(section) {
         most[i].getElementsByClassName.display = "none";
     }
     document.getElementById(section).style.display = "block";
+}
+
+// Informar al usuario si la tarjeta es valida
+function validation (n){
+  if (n === true){
+    return "Tu tarjeta es válida";
+  }else{
+    return "Tu tarjeta es invalida";
+  }
 }

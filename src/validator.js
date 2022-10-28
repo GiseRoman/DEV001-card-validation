@@ -23,14 +23,6 @@ const validator = {
         }
         const valid = sum % 10 == 0;
         return valid;
-      },
-// Informar al usuario si la tarjeta es valida
-      validation (n){
-        if (n === true){
-          return "Tu tarjeta es válida";
-        }else{
-          return "Tu tarjeta es invalida";
-        }
       }
 };
 export default validator;

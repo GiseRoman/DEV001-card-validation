@@ -56,9 +56,9 @@ body{
     background-color: rgb(242, 174, 248);
 }
 
-.ocultIndex{
+/* .ocultIndex{
     display: block;
-}
+} */
 
 .oculto{
     display: none;
@@ -73,9 +73,9 @@ ul {
 
 .caja{
     width: 400px;
-    height: 400px;
+    height: 200px;
     padding: 10px 10px;
-    min-height: 50px;
+    /* min-height: 50px; */
     margin-left: auto;
     margin-right: auto;
     background: rgba(226, 226, 226, 0.822);
@@ -85,4 +85,5 @@ ul {
     border-style: groove;
     text-align: center;
     justify-content: center;
+    left: 0;
 }
