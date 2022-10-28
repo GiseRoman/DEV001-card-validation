@@ -14,7 +14,9 @@
 
 ## 4.Prototipo de alta fidelidad
 
-
+  ![Seijaku1](seijaku1.png)
+  ![Seijaku2](seijaku2.png)
+  ![Seijaku3](seijaku3.png)
 
 
 ## 5. Los criterios de aceptación mínimos del proyecto:
